@@ -1,8 +1,8 @@
 # GenAI
 
-##Large Language Model and Large Image Model using Gemini
+## Large Language Model and Large Image Model using Gemini
 
-###Environment Setup:
+### Environment Setup:
 
 Virtual Environment Creation: Utilized Conda to create an optimized environment for project deployment.
 Dependencies (requirements.txt):
@@ -10,17 +10,17 @@ Streamlit: Used for frontend development.
 google-generativeai: Integrated to access the Gemini Pro API.
 python-dotenv: Managed environment variables securely.
 
-###Configuration:
+### Configuration:
 Created a .env file to securely store environment variables.
 
-###Model Initialization:
+### Model Initialization:
 Initialized the model using GenerativeModel (gemini-1.5-flash).
 
-###Application Development:
+### Application Development:
 app.py: Built a simple LLM application using Streamlit, incorporating a user input field and a submission button to display the generated response.
 vision.py: Implemented image response generation using a model based on gemini-pro-vision, including an image upload feature with PIL (Python Imaging Library).
 
-###Commands to run the application:
+### Commands to run the application:
 streamlit run app.py
 streamlit run vision.py
 
