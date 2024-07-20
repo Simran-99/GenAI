@@ -1,0 +1,13 @@
+prefix=D:/GenAI/QAChatbot/venv/Library
+exec_prefix=D:/GenAI/QAChatbot/venv/Library
+libdir=D:/GenAI/QAChatbot/venv/Library/lib
+sharedlibdir=D:/GenAI/QAChatbot/venv/Library/lib
+includedir=D:/GenAI/QAChatbot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
